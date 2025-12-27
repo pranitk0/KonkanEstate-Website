@@ -18,7 +18,7 @@ const createAdmin = async () => {
     
     if (existingAdmin) {
       console.log('  Admin user already exists');
-      console.log(' Email: admin@konkanproperties.com');
+      console.log(' Email: ');
       console.log(' Role: Administrator');
     } else {
       const admin = new User({
